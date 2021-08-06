@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="result.css" rel="stylesheet" type="text/css">
+<title>Student Result Calculator</title>
+</head>
+
+<body>
+<h1><span class="color">STUDENT's</span> <span class="colorr">RESULT</span> <span class="colorrr">CALCULATOR</span></h1>
+<p></p>
+	
+
+	
+<form method="post" action="">
+		<label>
+			<span class="col">English:</span> <input type="text" id="English" placeholder="Score"/>
+		</label>
+		<label>
+			<span class="coll">Mathematics:</span> <input type="text" id="Maths" placeholder="score"/>
+		</label>
+		<label>
+			<span class="colll">Chemistry:</span> <input type="text" id="Chemistry" placeholder="score"/>
+		</label>
+		<label>
+			<span class="collll">Physics:</span> <input type="text" id="Physics" placeholder="score"/>
+		</label>
+</form>
+	
+	<p></p>
+	<input type="submit" onclick="Grading()" value="Check"/>
+	<p></p>Total:<div id="result" style="background-color: #1AA9C0; width: 5%; height: 10px;"></div>
+	<p></p>Average: <div id="averg" style="background-color: hsla(60,86%,56%,0.93); width: 5%; height: 10px;"></div>
+	<p></p>Grade: <div id="grad" style="background-color: hsla(121,90%,72%,1.00); width: 5%; height: 10px;"></div>
+	
+</body>
+</html>
