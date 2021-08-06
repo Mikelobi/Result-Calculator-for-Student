@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.color{
+		color: #1FE4BC;
+}
+
+.cover{
+	width: 100%;
+	height: 600px;
+	background: hsla(168,90%,38%,1.00);
+}
+.colorr{
+		color: #9BA407;
+}
+.colorrr{
+		color: #233FC1;
+}
+.col{
+		color: hsla(59,55%,18%,1.00);
+}
+.coll{
+		color: hsla(359,89%,31%,1.00);
+}
+.colll{
+		color: hsla(76,99%,31%,1.00);
+}
+.collll{
+		color: hsla(341,90%,45%,1.00);
+}
